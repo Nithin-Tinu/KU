@@ -1,0 +1,188 @@
+---------student signup form
+<html>
+<style>
+input[type=text], select {
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+  
+ 
+  input[type=number]{
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+  
+  input[type=password] {
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 1px 0;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+h1{
+    text-align:center;
+    font-family:monospace;
+}
+</style>
+<body style="background-color:powderblue">
+
+<h1>Student signup</h1>
+
+<div>
+  <form >
+   <div class="row">
+   <div class="col-50"> 
+    <label for="name"> Name</label>
+    </div>
+    <div class="col-100">
+    <input type="text" id="fname" name="name" placeholder="Your name..">
+     </div>
+     </div>
+      <div class="row">
+      <div class="col-70">
+    <label for="fname">Father Name</label>
+      </div>
+       <div class="col-90">
+    <input type="text" id="fname" name="fname" placeholder="Your father name..">
+       </div>
+       </div>
+       <div class="row">
+      <div class="col-70">
+     <label for="email">Email</label>
+        </div>
+       <div class="col-90">
+       
+       <input type="email" id="email" name="email" placeholder="Your Email">
+        </div>
+       </div>
+       <div class="row">
+      <div class="col-70">
+
+        <label for="HTno">Hallticket no</label>
+          </div>
+         <div class="col-90">
+ 
+
+        <input type="number" id="HTno" name="HTno" placeholder="Your Hallticket number">
+          </div>
+         </div>
+         <div class="row">
+         <div class="col-70">
+        
+         <label for="Current Semester">Current Semester</label>
+           </div>
+          <div class="col-70">
+         <select id="semester" name="semester">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            </select>
+          </div>
+         </div>
+         <div class="row">
+         <div class="col-70">
+         
+          <label for="pwd">Create Password</label>
+           </div>
+          <div class="col-70">
+          <input type="password" id="pwd" name"pwd" placeholder="Password">
+           </div>
+         </div>
+         <div class="row">
+         <div class="col-70">
+          <label for="pwd">Confirm Password</label>
+            </div>
+            <div class="col-70">
+          <input type="password" id="pwd" name"pwd" placeholder="Confirm Password">
+         </div>
+         </div>
+         <div class="row">
+         <div class="col-70">
+           <label for="Year">Year</label>
+            </div>
+            <div class="col-70">
+           <select id="year" name="year">
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+            <option value="IV">IV</option>
+            </select>
+             </div>
+         </div>
+         <div class="row">
+         <div class="col-70">
+
+         <label for="branch">Branch</label>
+         </div>
+         <div class="col-70">
+             <select id="branch" name="branch">
+              <option value="Computer Science and Engineering">CSE</option>
+              <option value="Information Technology">IT</option>
+              <option value="Electronics Communication and Engineering">ECE</option>
+              <option value="Civil Engineering">Civil</option>
+              <option value="Electrical and Electronics Engineering">EEE</option>
+              <option value="Mechanical Engineering">Mech</option>
+              </div>
+              </div>
+    
+             </select> 
+             
+             
+             <input type="submit" value="submit">
+            
+             
+</div>
+</form>
+</body>
+</html>
+
+    
+  

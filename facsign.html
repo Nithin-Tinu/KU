@@ -1,0 +1,176 @@
+----------------------facultu signup form
+<html lang="en-US">
+<style>
+input[type=text], select {
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+  
+ 
+  input[type=number]{
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+  
+  input[type=password] {
+  width: 150px;
+  padding: 5px 10px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  width: 150px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 1px 0;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+h1{
+    text-align:center;
+    font-family:monospace;
+}
+</style>
+<body style="background-color:powderblue"
+<head>
+<title>
+faculty
+</title>
+</head>
+
+<body>
+<h1>Faculty</h1>
+<div class="container">
+  <form action="FACULTYSIGNUP.php">
+  <div class="row">
+    <div class="col-50">
+
+    
+     <label for="name"> Name</label>
+     </div>
+     <div class="col-100">
+     
+     <input type="text" id="name" name="name" placeholder="Your Name">
+     </div>
+     
+   </div> 
+   
+       <div class="row">
+        <div class="col-25">
+       <label for="email">Email</label>
+       </div>
+       <div class="col-75">
+       <input type="email" id="email" name="email" placeholder="Your Email">
+        </div>
+       </div>
+       <div class="row">
+       <div class="col-25">
+
+        <label for="Subject">subject</label>
+        </div>
+        <div class="col-75">
+        <input type="text" id="subject" name="subject" placeholder="Your subject name">
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-25">
+         <label for="Current Semester">Semester</label>
+         </div>
+         <div class="col-75">
+         <input type="number" id="Current Semester" name="Current Semester" placeholder="Your Current Semester">
+         </div>
+         </div>
+         <div class="row">
+        <div class="col-25">
+          <label for="pwd">Create Password</label>
+         </div>
+         <div class="col-75">
+          <input type="password" id="pwd" name"pwd" placeholder="Password">
+          </div>
+          </div>
+          <div class="row">
+        <div class="col-25">
+          <label for="pwd">Confirm Password</label>
+         </div>
+         <div class="col-75">
+          <input type="password" id="pwd" name"pwd" placeholder="Confirm Password">
+          </div>
+          </div>
+          
+
+
+          <div class="row">
+          <div class="col-25">
+           <label for="Year">Year</label>
+           </div>
+           <div class="col-75">
+           <select id="year" name="year">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+
+
+           </div>
+           </div>
+           <div class="row">
+            <div class="col-25">
+            <label for="branch">Branch</label>
+             <div class="col-75">
+             <select id="branch" name="branch">
+              <option value="Computer Science and Engineering">CSE</option>
+              <option value="Information Technology">IT</option>
+              <option value="Electronics Communication and Engineering">ECE</option>
+              <option value="Civil Engineering">Civil</option>
+              <option value="Electrical and Electronics Engineering">EEE</option>
+              <option value="Mechanical Engineering">Mech</option>
+              </div>
+              </div>
+    
+             </select> 
+             </div>
+             <div class="row">
+             <input type="submit" value="submit">
+             </div>
+             
+</div>
+</form>
+</body>
+</html>
